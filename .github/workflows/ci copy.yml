@@ -9,5 +9,5 @@ jobs:
   - name: Check-out code
     uses: actions/checkout@v2
   - name: we are testing 
-    uses: echo hello world
+    run: echo hello world
     
