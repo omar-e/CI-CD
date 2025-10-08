@@ -4,10 +4,9 @@ on: [push]
 
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Check-out code
-    uses: actions/checkout@v2
-  - name: we are testing 
-    run: echo hello world
-    
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check-out code
+      uses: actions/checkout@v2
+    - name: testing
+      run: echo hello world
