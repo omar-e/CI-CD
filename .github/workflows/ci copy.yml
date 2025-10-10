@@ -11,4 +11,4 @@ jobs:
     - name: testing
       run: echo hello world
     - name: print branch name 
-      run: The branch name is {{ github.ref }}
+      run: The branch name is ${{ github.ref }}
