@@ -19,12 +19,12 @@ jobs:
         python-version: ${{ matrix.python-version}}
     - name: install dependencies
       run: | 
-        cd chapter4 
+        cd Chapter4 
         python -m pip install --upgrade pip 
         
     - name: run test 
       run: |
-        cd chapter4 
+        cd Chapter4 
         python -m unittest discover
 
     - name: notfy us of success 
