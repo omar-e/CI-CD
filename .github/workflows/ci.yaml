@@ -15,4 +15,4 @@ jobs:
       run: echo "This is my secret $MY_SECRETS"
 
     - env:
-      MY_SECRETS: echo "This is the secret ${{ secrets.MY_SECRETS}}"
+      MY_SECRETS: ${{ secrets.MY_SECRETS}}
