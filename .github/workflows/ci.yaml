@@ -14,4 +14,4 @@ jobs:
     - name: runn an env as a secret
       run: echo "This is my secret $MY_SECRETS"
       env:
-      MY_SECRETS: ${{ secrets.MY_SECRETS}}
+        MY_SECRETS: ${{ secrets.MY_SECRETS}}
