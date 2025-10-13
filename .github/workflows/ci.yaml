@@ -12,7 +12,7 @@ jobs:
       run: echo "This is my secret ${{ secrets.MY_SECRETS}}"
 
     - name: runn an env as a secret
-      run: echo "This is my secret $secret"
+      run: echo "This is my secret $MY_SECRETS"
 
     - env:
-      secret: echo "This is the secret ${{ secrets.MY_SECRETS}}"
+      MY_SECRETS: echo "This is the secret ${{ secrets.MY_SECRETS}}"
